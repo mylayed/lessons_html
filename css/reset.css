@@ -6,6 +6,12 @@
 	border: none;
 	box-sizing: border-box;
 }
+
+*::before,
+*::after {
+	display: inline-block;
+}
+
 a {
 	display: inline-block;
 	text-decoration: none;
@@ -15,6 +21,11 @@ img {
 	vertical-align: top;
 	max-width: 100%;
 }
+
+li {
+	list-style: none;
+}
+
 html,
 body {
 	line-height: 1;
@@ -30,6 +41,11 @@ h6 {
 	font-size: inherit;
 	font-family: inherit;
 }
-ul {
-	list-style: none;
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	background-color: transparent;
 }
